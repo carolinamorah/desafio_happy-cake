@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home"; 
 import Contacto from "./views/Contacto.jsx";
 import Footer from "./components/Footer.jsx";
+import NotFound from "./views/NotFound.jsx"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>     

@@ -147,6 +147,20 @@ footer {
   color:#faecdc;
 }
 
+.notFound{
+  margin-top: 12rem;
+  height: 100vh;
+  color:#a98357;
+}
+.notfound-img{
+  width: 500px;
+  height: 250px;
+}
+.notfound-title{
+  color: rgb(174, 134, 179);
+  ;
+}
+
 @media (max-width: 767px) {
   .spikes {
     background: #f1dfca;
@@ -174,6 +188,8 @@ footer {
     color: #f9ebdc;
     padding: 1rem;
     font-size: 1rem;
-  
+  }
+  .notfound-img{
+    opacity: 1;
   }
 }
