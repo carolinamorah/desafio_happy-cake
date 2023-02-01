@@ -5,6 +5,9 @@ import cookies from '../assets/img/cookies.jpg';
 
 
 const Contacto = () => {
+    const submitBlock = (e) =>{
+        e.preventDefault();
+    }
     return (
         <div className='contacto'>
             <div className=''>
@@ -25,7 +28,7 @@ const Contacto = () => {
                     <Form.Label>Texto</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button className='btn-submit w-100 rounded-5' variant="primary" type="submit">
+                <Button onClick={submitBlock}className='btn-submit w-100 rounded-5' variant="primary" type="submit">
                     Enviar pedido
                 </Button>
             </Form>
