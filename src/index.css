@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,100;1,200&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Kaushan Script', 'Cursive';
+}
+
+nav {
+  z-index: 1;
+  background: #f1dfca;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #dfc9af;
+
+}
+.nav-text{
+  color:#a98357
+}
+.nav-text:hover{
+  color:rgb(174, 134, 179);
+  font-weight: bolder;
+}
+.logo{
+  font-family: 'Kaushan Script', 'Cursive';
+  background-color: rgba(177, 141, 155, 0.765);
+  color: #f1dfca;
+  padding: 8px;
+  border-style: double;
+}
+
+.toggle{
+  color:rgba(183, 133, 151, 0.765);
+  border-width: 3px;
+}
+.spikes {
+  position: relative;
+  background: #f1dfca;
+  height: 30rem;
+  padding: 0;
+}
+
+.hero {
+  padding-top: 8rem;
+  margin: 0 6rem 0 6rem;
+}
+.hero-img {
+  position: relative;
+  height: 28rem;
+  width: 20rem;
+}
+.title{
+  font-family: 'Kaushan Script', 'Cursive';
+  font-size: 3rem;
+  color:#a98357
+}
+.subtitle{
+  font-size: 1.3rem;
+  color:rgb(174, 134, 179);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-header{
+  background-color: rgba(183, 133, 151, 0.765);
+  border: none;
+  margin-top: 3rem;
+  color: #f9ebdc;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+
+}
+.btn-header:hover{
+  background-color:rgba(228, 172, 194, 0.765);
+}
+.productos {
+  padding-top: 5.5rem;
+  font-family: 'Kaushan Script', 'Cursive';
+  color:#a98357
+}
+.cards {
+  margin:0 6.8rem 4.5rem 6.8rem;
+  gap: 20px;
+  border: none;
+}
+
+.card-img:hover{
+  filter: brightness(0.6);
+}
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color:#a98357;
+  font-weight: bolder;
+}
+.title-contacto{
+  color:#a98357;
+  font-family: 'Kaushan Script', 'Cursive';
+}
+.subtitle-contacto{
+  color:#a98357;
+  font-family: 'Kaushan Script', 'Cursive';
+}
+.email, .nombre, .texto {
+  color:#a98357;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.contacto-img{
+  height: 30rem;
+  border-radius: 45% 45% 0 0;
+}
+.contacto{
+  margin: 10rem 4.5rem 5rem 4.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.btn-submit{
+  background-color: rgba(165, 123, 139, 0.765);
+  border: none;
+}
+.btn-submit:hover{
+  background-color:rgba(228, 172, 194, 0.765);
+  border: none;
+}
+
+footer {
+  height: 184px;
+  position: relative;
+  background-color: rgb(140, 128, 146);
+  color:#faecdc;
+}
+
+@media (max-width: 767px) {
+  .spikes {
+    background: #f1dfca;
+    height: 21rem;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero {
+    padding-top: 3.8rem;
+    margin:0 0 0 3rem;
+  }
+  .title{
+    font-family: 'Kaushan Script', 'Cursive';
+    font-size: 1.8rem;
+    color:#a98357
+  }
+  .subtitle{
+    font-size: 1rem;
+  }
+  .btn-header{
+    background-color: rgba(183, 133, 151, 0.765);
+    border: none;
+    margin-top: 2rem;
+    color: #f9ebdc;
+    padding: 1rem;
+    font-size: 1rem;
+  
+  }
+}
